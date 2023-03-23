@@ -178,6 +178,19 @@
   color: #172b4d;
 }
 
+.windowPopup .pop-header .closePopup i {
+  color: #67798e; 
+  font-size: 26px;
+  font-weight: lighter;
+}
+
+.windowPopup .pop-header ul li:nth-child(1) {
+  color: #344563; 
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px; 
+}
+
 .popup-link-icon {
   display: flex;
   justify-content: center;
@@ -209,19 +222,6 @@
   font-size: 22px;
 }
 
-.windowPopup .pop-header .closePopup i {
-  color: #67798e;
-  font-size: 26px;
-  font-weight: lighter;
-}
-
-.windowPopup .pop-header ul li:nth-child(1) {
-  color: #344563;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-}
-
 .btn {
   display: flex;
   justify-content: center;
@@ -243,7 +243,7 @@
   color: #396df2;
 }
 
-.btn a:hover {
+.btn a:hover{
   top: calc(50% - 48px / 2 + 57.5px);
   background: #6070ff;
   box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
@@ -309,16 +309,8 @@
     width: 99%;
   }
 
-  .windowPopup .pop-element p:first-child {
-    display: none;
-  }
-
   .pop-description-element {
     width: 45%;
-  }
-
-  .windowPopup .pop-element .languages {
-    width: 100%;
   }
 
   .windowPopup .pop-element {

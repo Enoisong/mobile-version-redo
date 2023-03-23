@@ -10,7 +10,7 @@
 }
 
 #root {
-  background-color: #f1f5fa;
+  background-color: #d4e0d4;
 }
 
 header {
@@ -62,15 +62,16 @@ a {
 }
 
 .navbar .openMenu {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   margin: 10px;
+  font-weight: 100;
   color: #7f8cff;
   display: none;
   cursor: pointer;
 }
 
 .nav-items .closeMenu {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: white;
   margin: -10px 3px;
   display: none;
@@ -200,7 +201,7 @@ a {
 #workscontainer .container .work-description .description-element .element {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 16px;
   color: rgb(116 129 153);
   list-style: none;
@@ -271,11 +272,11 @@ a {
     right: 0;
     top: 0;
     font-size: 35px;
-    padding: 60px 0;
+    padding: 100px 0;
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
-    background-color: rgb(13 35 235 / 60.4%);
+    background-color: rgb(13 35 235 / 77.4%);
     transition: right 0.3s ease;
     display: none;
     z-index: 10;
@@ -509,7 +510,7 @@ a {
   transform: scale(1.3);
 }
 
-#contact-container {
+#contactcontainer {
   background-image: url(./images/contact_backward.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -552,7 +553,7 @@ a {
   cursor: pointer;
 }
 
-#contact-container #input-contact-box {
+#contactcontainer #inputcontactbox {
   height: 450px;
   display: flex;
   flex-direction: column;
@@ -564,13 +565,13 @@ a {
   height: 780px;
 }
 
-#contact-container .label {
+#contactcontainer .label {
   font-family: "Poppins", sans-serif;
   color: white;
   margin: 5px 0 5px;
 }
 
-#contact-container #input-contact-box .input-i {
+#contactcontainer #inputcontactbox .inputi {
   font-family: "Poppins", sans-serif;
   height: 40px;
   padding: 10px;
@@ -583,7 +584,7 @@ a {
   outline: none;
 }
 
-#contact-container #input-contact-box .input-m {
+#contactcontainer #inputcontactbox .inputm {
   font-family: "Poppins", sans-serif;
   padding: 5px 5px 0;
   font-size: 15px;
@@ -596,7 +597,7 @@ a {
   resize: none;
 }
 
-#contact-container .get-touch-btn {
+#contactcontainer .get-touch-btn {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
@@ -611,7 +612,7 @@ a {
   border: none;
 }
 
-#contact-container .get-touch-btn:hover {
+#contactcontainer .get-touch-btn:hover {
   background: #6070ff;
   box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
   border: 1px solid #fff;
@@ -643,7 +644,7 @@ a {
 
   #index {
     background-image: url(./images/desktop-images/deskBackground-Home.png);
-    margin-bottom: 230px;
+    margin-bottom: 100px;
     background-position-y: 100%;
     display: flex;
     justify-content: center;
@@ -677,7 +678,7 @@ a {
   }
 
   @keyframes example {
-    from { color: rgb(0, 255, 200); }
+    from { color: rgb(255, 0, 140); }
     to { color: rgb(140, 0, 255); }
   }
 
@@ -829,7 +830,7 @@ a {
     margin: 0;
   }
 
-  #contact-container {
+  #contactcontainer {
     background-image: url(./images/desktop-images/contact-desk.png);
     margin: -140px auto;
   }
@@ -845,12 +846,12 @@ a {
     width: 40%;
   }
 
-  #contact-container #input-contact-box {
+  #contactcontainer #inputcontactbox {
     width: 40%;
     margin: auto;
   }
 
-  #contact-container .get-touch-btn {
+  #contactcontainer .get-touch-btn {
     margin-bottom: 20px;
     align-self: center;
   }

@@ -28,7 +28,12 @@ const projects = [
     work: 'Back End Dev',
     date: 2015,
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book`,
     techUse: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap'],
+    techUses: ['html', 'css', 'javaScript'],
     projectDemo: 'https://enoisong.github.io/Mobile-First-Portfolio/',
     projectSource: 'https://github.com/Enoisong/Mobile-First-Portfolio',
   },
@@ -40,8 +45,12 @@ const projects = [
     companyId: 'FACEBOOK',
     work: 'Full Stack Dev',
     date: 2015,
-    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming <br> their friends.',
-    techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry's standard dummy text ever
+          since the 1500s, when an unknown printer took make a type specimen book`,
+    techUse: ['html', 'css', 'javaScript'],
+    techUses: ['html', 'css', 'javaScript'],
     projectDemo: 'https://enoisong.github.io/Mobile-First-Portfolio/',
     projectSource: 'https://github.com/Enoisong/Mobile-First-Portfolio',
   },
@@ -53,14 +62,13 @@ const projects = [
     companyId: 'FACEBOOK',
     work: 'Full Stack Dev',
     date: 2015,
-    description: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
     descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essent`,
-    techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
+          scrambled it to make a type specimen book`,
+    techUse: ['html', 'css', 'javaScript'],
+    techUses: ['html', 'css', 'javaScript'],
     projectDemo: 'https://enoisong.github.io/Mobile-First-Portfolio/',
     projectSource: 'https://github.com/Enoisong/Mobile-First-Portfolio',
   },
@@ -72,8 +80,13 @@ const projects = [
     companyId: 'Uber',
     work: 'Lead Developer',
     date: 2015,
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book`,
+    techUse: ['html', 'css', 'javaScript'],
+    techUses: ['html', 'css', 'javaScript'],
     projectDemo: 'https://enoisong.github.io/Mobile-First-Portfolio/',
     projectSource: 'https://github.com/Enoisong/Mobile-First-Portfolio',
   },
@@ -136,14 +149,14 @@ function popupFunc(id) {
           }
 function closePopupFunc(status) {
   if (status === null) return;
-windowPopup.style.display = 'none';
-navigationBarClose.style.display = 'flex';
-document.body.style.overflow = 'scroll';
+  windowPopup.style.display = 'none';
+  navigationBarClose.style.display = 'flex';
+  document.body.style.overflow = 'scroll';
 }
 function worksContainer() {
   const element = projects.map((val, index) => {
     const cards = index % 2 === 0 ? `<div class="container">
-    <img class="work-pic" src="./images/Portoflio_Card/work.png" alt="nature image" />
+    <img class="work-pic" src=${val.pic} alt="nature image" />
     <img class="work-pic" src=${val.pic} alt="landing page view" />
     <div class="work-description">
     <h4>${val.name}</h4>
@@ -160,14 +173,13 @@ function worksContainer() {
     </ul>
     <p class="description-text">${val.description}</p>
     <ul class="languages">
-    ${val.techUse.map((el) => `<li class="lang">${el}</li>`).join('')}
+    ${val.techUses.map((el) => `<li class="lang">${el}</li>`).join('')}
     </ul><br>
     <button class="btn openPopup" id="firstBtn" type="submit" onclick="popupFunc(${val.id})">See Project</button>
     </div>
     </div>`
     : ` <div class="container">
-      <img class="work-pic" src="./images/Portoflio_Card/work1.png" alt="multi-post stories image" />
-                
+      <img class="work-pic" src=${val.pic} alt="multi-post stories  image" />                
                 <div class="work-description">
                     <h4>${val.name}</h4>
                     <ul class="description-element">
@@ -183,21 +195,21 @@ function worksContainer() {
                     </ul>
                     <p class="description-text">${val.description}</p>
                     <ul class="languages">
-                       ${val.techUse.map((el) => `<li class="lang">${el}</li>`).join('')}
+                       ${val.techUses.map((el) => `<li class="lang">${el}</li>`).join('')}
                     </ul><br>
                     <button class="btn openPopup" id="secondBtn" onclick="popupFunc(${val.id})" type="submit">See
                         Project</button>
                 </div>
                 <img class="work-pic-1" src=${val.pic} alt="professional art printing image" />
-</div>`;
-return cards;
-});
-return element;
+                </div>`;
+      return cards;
+  });
+  return element;
 }
 
 window.addEventListener('load', () => {
-mainContainer.innerHTML = worksContainer();
-return mainContainer;
+  mainContainer.innerHTML = worksContainer();
+  return mainContainer;
 });
 popupFunc(null);
 closePopupFunc(null);
@@ -205,22 +217,24 @@ closePopupFunc(null);
 const formValidation = document.querySelector('#inputcontactbox');
 const emailInputValidation = document.querySelector('#email');
 const entryTextMessage = document.querySelector('#inputmessage');
-
 formValidation.addEventListener('submit', (event) => {
-  const strEmailInput = emailInputValidation.value;
+  const stremailinput = emailInputValidation.value;
 
-  if (/[A-Z]/.test(strEmailInput)) {
-    entryTextMessage.innerHTML = 'Your form is not sent because the email address is not correct; Email must contain only lowercase character.';
-    entryTextMessage.style.fontSize = '16px';
+  if (/[A-Z]/.test(stremailinput)) {
+    entryTextMessage.innerHTML = "Your form is not sent; email must be in lower case.";
+    entryTextMessage.style.fontSize = '12px';
     entryTextMessage.style.fontStyle = 'italic';
-    entryTextMessage.style.color = 'yellow';
+    entryTextMessage.style.color = 'tomato';
 
     window.addEventListener('load', () => {
       mainContainer.innerHTML = worksContainer();
-    return mainContainer;
-  });
-  
+      return mainContainer;
+    });
 
-    event.preventDefault();
-  }
-});
+        event.preventDefault();
+    }
+  });
+
+   
+  
+ 
