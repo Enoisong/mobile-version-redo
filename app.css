@@ -109,7 +109,6 @@
 
 .windowPopup .pop-element .languages {
   width: 100%;
-  
 }
 
 .windowPopup .pop-element .languages .lang {
@@ -159,16 +158,15 @@
 }
 
 .navigation-links {
-    width: 95%;
-    height: 50px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    justify-content: space-between;
-    align-items: center;
-  }
-
+  width: 95%;
+  height: 50px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .windowPopup .pop-header .h-4 {
   font-weight: bold;
@@ -179,16 +177,16 @@
 }
 
 .windowPopup .pop-header .closePopup i {
-  color: #67798e; 
+  color: #67798e;
   font-size: 26px;
   font-weight: lighter;
 }
 
 .windowPopup .pop-header ul li:nth-child(1) {
-  color: #344563; 
+  color: #344563;
   font-weight: 600;
   font-size: 13px;
-  line-height: 16px; 
+  line-height: 16px;
 }
 
 .popup-link-icon {
@@ -243,7 +241,7 @@
   color: #396df2;
 }
 
-.btn a:hover{
+.btn a:hover {
   top: calc(50% - 48px / 2 + 57.5px);
   background: #6070ff;
   box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
@@ -253,7 +251,7 @@
 @media screen and (max-width: 991px) {
   .windowPopup .work-pic:nth-child(2) {
     display: none;
-  }  
+  }
 
   .windowPopup .pop-element p:nth-child(2) {
     display: none;
@@ -264,7 +262,6 @@
     column-gap: 10px;
   }
 }
-
 
 @media screen and (min-width: 992px) {
   .winUp {

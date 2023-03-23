@@ -142,11 +142,11 @@ function popupFunc(id) {
                 </div>
             </div>
           </div>`;
-          windowPopup.style.display = 'flex';
-          navigationBarClose.style.display = 'none';
-          document.body.style.overflow = 'hidden';
-          popup.innerHTML = popupContent;
-          }
+  windowPopup.style.display = 'flex';
+  navigationBarClose.style.display = 'none';
+  document.body.style.overflow = 'hidden';
+  popup.innerHTML = popupContent;
+}
 function closePopupFunc(status) {
   if (status === null) return;
   windowPopup.style.display = 'none';
@@ -178,7 +178,7 @@ function worksContainer() {
     <button class="btn openPopup" id="firstBtn" type="submit" onclick="popupFunc(${val.id})">See Project</button>
     </div>
     </div>`
-    : ` <div class="container">
+      : ` <div class="container">
       <img class="work-pic" src=${val.pic} alt="multi-post stories  image" />                
                 <div class="work-description">
                     <h4>${val.name}</h4>
@@ -202,7 +202,7 @@ function worksContainer() {
                 </div>
                 <img class="work-pic-1" src=${val.pic} alt="professional art printing image" />
                 </div>`;
-      return cards;
+    return cards;
   });
   return element;
 }
@@ -221,7 +221,7 @@ formValidation.addEventListener('submit', (event) => {
   const stremailinput = emailInputValidation.value;
 
   if (/[A-Z]/.test(stremailinput)) {
-    entryTextMessage.innerHTML = "Your form is not sent; email must be in lower case.";
+    entryTextMessage.innerHTML = 'Your form is not sent; email must be in lower case.';
     entryTextMessage.style.fontSize = '12px';
     entryTextMessage.style.fontStyle = 'italic';
     entryTextMessage.style.color = 'tomato';
@@ -231,10 +231,6 @@ formValidation.addEventListener('submit', (event) => {
       return mainContainer;
     });
 
-        event.preventDefault();
-    }
-  });
-
-   
-  
- 
+    event.preventDefault();
+  }
+});
