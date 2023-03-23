@@ -40,11 +40,12 @@ Mobile First Portfolio is a mobile website designed as part of Microverse course
 ### Key Features <a name="key-features"></a>
 - The toolbar
 - Headline section
-- Work Section
-- About Myself
+- Work-Section
+- About-Myself
 - Styling
-- Mobile Menu
- 
+- Mobile-Menu
+- Window-Popup
+- Validate-Form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +68,7 @@ https://github.com/Enoisong/Mobile-First-Portfolio.git
 ### Install
 Install this project with:
 
- VSCode
+VSCode
 
 ### Usage
 
@@ -75,24 +76,24 @@ To run the project:
 Install the Live server extension of the VScode and run Go Live
 
 ### Run tests
-
 To run linters tests, run the following command: 
 npx hint .
 npx stylelint "**/*.{css,scss}"
 npx eslint .
 
-<!-- AUTHORS -->
-## 👥 Authors <a name="author"></a> 
-- Enobong Isong
-- Wolter Bwambale
+### Deployment
+It will be deployed after merge
 
-👤 **Authors**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+## 👥 Author <a name="author"></a> 
+- Enobong Isong
+
+👤 **Author**
 - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
-
-WolterBwambale
-- https://github.com/wolterbwambale
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -101,7 +102,17 @@ WolterBwambale
 - Add Footer 
 - Add Animation and Transition 
 - Mobile Menu
-- Pop-up Window
+- Pop-up-Window
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, as well as feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,4 +134,4 @@ I would like to acknowledge Microverse community for thier support.
 
 This project is [MIT](./MIT.md) licensed.
 
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
