@@ -52,7 +52,7 @@ Mobile First Portfolio is a mobile website designed as part of Microverse course
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- https://enoisong.github.io/Mobile-First-Portfolio/
+ 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/Portfolio--Setup-and-Mobile-First
