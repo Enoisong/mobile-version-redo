@@ -161,7 +161,8 @@ a {
 
 #workscontainer .container .work-pic {
   width: 100%;
-  transition: all 0.2s ease-in-out;
+  margin-top: 10px;
+  transition: all 0.2s ease-in-out;   
 }
 
 #workscontainer .work-pic:hover {

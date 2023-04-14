@@ -22,20 +22,20 @@ navItems.addEventListener('click', () => {
 const projects = [
   {
     id: 1,
-    name: 'Tonic',
-    pic: './images/desktop-images/img1.png',
-    companyId: 'CANOPY',
+    name: 'AWESOME BOOKS',
+    pic: './images/desktop-images/img01.png',
+    companyId: 'BOOKS',
     work: 'Back End Dev',
-    date: 2015,
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book`,
+    date: 2023,
+    description: 'an app designed with the ability to add, remove and store books.',
+    descriptions: `AWESOME BOOKS is an app designed with the ability to add, 
+          remove and store books. It uses JavaScript classes methods to add and
+          remove books, added to this technology, it uses ES6 module and a
+          library Luxon`,
     techUse: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap'],
     techUses: ['html', 'css', 'javaScript'],
-    projectDemo: 'https://enoisong.github.io/Mobile-First-Portfolio/',
-    projectSource: 'https://github.com/Enoisong/Mobile-First-Portfolio',
+    projectDemo: 'https://enoisong.github.io/AWESOMEBOOKS-ES6/',
+    projectSource: 'https://github.com/Enoisong/AWESOMEBOOKS-ES6',
   },
 
   {
