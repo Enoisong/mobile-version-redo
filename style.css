@@ -144,7 +144,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
 }
 
 #workscontainer .container {
@@ -156,13 +156,13 @@ a {
   grid-template-columns: auto;
   justify-content: center;
   background-color: #fff;
-  border-radius: 24px;
+  border-radius: 24px; 
 }
 
 #workscontainer .container .work-pic {
   width: 100%;
   margin-top: 10px;
-  transition: all 0.2s ease-in-out;   
+  transition: all 0.2s ease-in-out;         
 }
 
 #workscontainer .work-pic:hover {
@@ -170,7 +170,7 @@ a {
 }
 
 #workscontainer .container .work-pic-1 {
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;  
 }
 
 #workscontainer .work-pic-1:hover {
@@ -223,7 +223,7 @@ a {
 
 #workscontainer .container .work-description .languages {
   width: 80%;
-  list-style: none;
+  list-style: none;  
 }
 
 .lang {
@@ -251,6 +251,7 @@ a {
   border-radius: 8px;
   color: #6070ff;
   background: #ebebff;
+  
 }
 
 #workscontainer .container .work-description .languages .lang2 {
@@ -262,7 +263,7 @@ a {
   align-items: center;
   border-radius: 8px;
   color: #6070ff;
-  background: #ebebff;
+  background: #ebebff;  
 }
 
 @media screen and (max-width: 991px) {
@@ -325,7 +326,7 @@ a {
     font-weight: 600;
     line-height: 16px;
     list-style: none;
-    color: #344563;
+    color: #344563;    
   }
 
   #index #container-def #icon-section ul li {
@@ -719,6 +720,7 @@ a {
   #workscontainer .container .work-pic,
   .work-pic-1 {
     width: 95%;
+    border:3px solid red;
   }
 
   #workscontainer .container .work-pic-1 {
