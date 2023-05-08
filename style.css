@@ -719,8 +719,8 @@ a {
 
   #workscontainer .container .work-pic,
   .work-pic-1 {
-    width: 95%;
-    border:3px solid red;
+    width: 95%;    
+    margin-top: 45px;
   }
 
   #workscontainer .container .work-pic-1 {
