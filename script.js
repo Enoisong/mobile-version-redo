@@ -28,14 +28,14 @@ const projects = [
     work: 'Back End Dev',
     date: 2023,
     description: 'an app designed with the ability to add, remove and store books.',
-    descriptions: `AWESOME BOOKS is an app designed with the ability to add, 
+    descriptions: `awesome_book is an app designed with the ability to add, 
           remove and store books. It uses JavaScript classes methods to add and
-          remove books, added to this technology, it uses ES6 module and a
+          remove books, added to this technology, it uses es6 module and a
           library Luxon`,
     techUse: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap'],
     techUses: ['html', 'css', 'javaScript'],
-    projectDemo: 'https://enoisong.github.io/AWESOMEBOOKS-ES6/',
-    projectSource: 'https://github.com/Enoisong/AWESOMEBOOKS-ES6',
+    projectDemo: 'https://enoisong.github.io/awesome_bookes6/',
+    projectSource: 'https://github.com/Enoisong/awesome_bookes6.git',
   },
 
   {
