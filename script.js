@@ -22,9 +22,9 @@ navItems.addEventListener('click', () => {
 const projects = [
   {
     id: 1,
-    name: 'AWESOME BOOKS',
+    name: 'awesome_bookses6',
     pic: './images/desktop-images/img01.png',
-    companyId: 'BOOKS',
+    companyId: 'Books',
     work: 'Back End Dev',
     date: 2023,
     description: 'an app designed with the ability to add, remove and store books.',
