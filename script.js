@@ -22,15 +22,15 @@ navItems.addEventListener('click', () => {
 const projects = [
   {
     id: 1,
-    name: 'awesome_bookses6',
-    pic: './images/desktop-images/img01.png',
+    name: 'awesome_bookes6',
+    pic: './images/desktop-images/img02.png',
     companyId: 'Books',
     work: 'Back End Dev',
     date: 2023,
     description: 'an app designed with the ability to add, remove and store books.',
-    descriptions: `awesome_book is an app designed with the ability to add, 
+    descriptions: `AWESOME BOOKS is an app designed with the ability to add, 
           remove and store books. It uses JavaScript classes methods to add and
-          remove books, added to this technology, it uses es6 module and a
+          remove books, added to this technology, it uses ES6 module and a
           library Luxon`,
     techUse: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap'],
     techUses: ['html', 'css', 'javaScript'],
