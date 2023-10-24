@@ -81,12 +81,26 @@ a {
 .navbar #logo img {
   width: 80px;
   margin: auto;
-  animation: rotation;
-  animation-duration: 0.3s;
-  animation-iteration-count: 1;
-  /* animation-delay: 2s; */
-  animation: logo 1 5s;
+  animation: rotateAndFlip;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  transform-origin: center;
 }
+
+@keyframes rotateAndFlip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
 
 #index {
   top: 0;
