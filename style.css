@@ -84,7 +84,8 @@ a {
   animation: rotation;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
-  animation-delay: 2s;
+  /* animation-delay: 2s; */
+  animation: logo 1 5s;
 }
 
 #index {
