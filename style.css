@@ -151,6 +151,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.3s ease-in-out; 
 }
 
 #workscontainer {
@@ -412,7 +413,7 @@ a {
 
 #about-container .about-content-box .about-description {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   color: #172b4d;
   margin: 20px auto;

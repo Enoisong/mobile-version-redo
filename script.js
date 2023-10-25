@@ -22,73 +22,70 @@ navItems.addEventListener('click', () => {
 const projects = [
   {
     id: 1,
-    name: 'awesome_bookes6',
-    pic: './images/desktop-images/img02.png',
-    companyId: 'Books',
+    name: 'mealDB',
+    pic: './images/desktop-images/meal.png',
+    companyId: 'Front End Dev',
     work: 'Back End Dev',
     date: 2023,
-    description: 'an app designed with the ability to add, remove and store books.',
-    descriptions: `AWESOME BOOKS is an app designed with the ability to add, 
-          remove and store books. It uses JavaScript classes methods to add and
-          remove books, added to this technology, it uses ES6 module and a
-          library Luxon`,
+    description: 'A mobile app built on external API that displays a list of food dishes with likes and comments functionality.',
+    descriptions: `DBMeal webapp built on external API. It fetches data from API and displays
+     a list of food dishes with likes and comments functionality.`,
     techUse: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap'],
     techUses: ['html', 'css', 'javaScript'],
-    projectDemo: 'https://enoisong.github.io/awesome_bookes6/',
-    projectSource: 'https://github.com/Enoisong/awesome_bookes6.git',
+    projectDemo: 'https://enoisong.github.io/Module2-Capstone/',
+    projectSource: 'https://github.com/Enoisong/Module2-Capstone.git',
   },
 
   {
     id: 2,
-    name: 'Multi-Post Stories',
-    pic: './images/desktop-images/img2.png',
-    companyId: 'FACEBOOK',
-    work: 'Full Stack Dev',
-    date: 2015,
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry's standard dummy text ever
-          since the 1500s, when an unknown printer took make a type specimen book`,
-    techUse: ['html', 'css', 'javaScript'],
-    techUses: ['html', 'css', 'javaScript'],
-    projectDemo: 'https://enoisong.github.io/Mobile-First-Portfolio/',
-    projectSource: 'https://github.com/Enoisong/Mobile-First-Portfolio',
+    name: 'Population Metrics',
+    pic: './images/desktop-images/pop1.png',
+    companyId: 'Front End Dev',
+    work: 'Back End Dev',
+    date: 2023,
+    description: 'A web app that allows users to explore population by country and view details of individual country from an API.',     
+    descriptions: `A web app that provides information about population in
+              different countries around the world. It allows users to explore population by
+              country and view details of individual country`,
+    techUse: ['React', 'Redux', 'CSS'],
+    techUses: ['React', 'Redux', 'CSS'],
+    projectDemo: 'https://metric-app-7uio.onrender.com/',
+    projectSource: 'https://github.com/Enoisong/metric_app.git',
   },
 
   {
     id: 3,
-    name: 'Facebook 360',
-    pic: './images/desktop-images/img3.png',
-    companyId: 'FACEBOOK',
-    work: 'Full Stack Dev',
-    date: 2015,
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book`,
-    techUse: ['html', 'css', 'javaScript'],
-    techUses: ['html', 'css', 'javaScript'],
-    projectDemo: 'https://enoisong.github.io/Mobile-First-Portfolio/',
-    projectSource: 'https://github.com/Enoisong/Mobile-First-Portfolio',
+    name: 'Recipe app',
+    pic: './images/desktop-images/recipe.png',
+    companyId: 'Front End Dev',
+    work: 'Back End Dev',
+    date: 2023,     
+    description: 'A web application that allows users to easily store, organise and share recipes.',
+    descriptions: `A web application that allows users to easily store, organise and share recipes.
+          Users can create personalized recipe boxes to save their 
+          favourite recipes for quick access.`,            
+    techUse: ['Ruby on Rails', 'Postgresql, TailwindCSS'],
+    techUses: ['Ruby on Rails', 'Postgresql', 'TailwindCSS'],
+    projectDemo: 'http://127.0.0.1:3000/',
+    projectSource: 'https://github.com/Enoisong/Recipe-app.git',
   },
 
   {
     id: 4,
-    name: 'Uber Navigation',
-    pic: './images/desktop-images/img4.png',
-    companyId: 'Uber',
-    work: 'Lead Developer',
-    date: 2015,
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book`,
-    techUse: ['html', 'css', 'javaScript'],
-    techUses: ['html', 'css', 'javaScript'],
-    projectDemo: 'https://enoisong.github.io/Mobile-First-Portfolio/',
-    projectSource: 'https://github.com/Enoisong/Mobile-First-Portfolio',
+    name: 'Budget Tracker',
+    pic: './images/desktop-images/bills.png',
+    companyId: 'Front end',
+    work: 'Back end',
+    date: 2023,
+    description: 'Empower your journey towards financial wellness with budget tracker',     
+    descriptions: `Empower your journey towards financial wellness with budget tracker.
+          Budget_tracker makes budgeting a breeze as users are well equipped to
+          take charge of and keep track of their finances,
+          make informed decisions and achieve financial goals`,
+    techUse: ['Ruby', 'Ruby on Rails', 'Bootstrap'],
+    techUses: ['Ruby', 'Ruby on Rails', 'Bootstrap'],
+    projectDemo: 'https://eno-s9dz.onrender.com/',
+    projectSource: 'https://github.com/Enoisong/budget_tracker.git',
   },
 ];
 const mainContainer = document.getElementById('workscontainer');
