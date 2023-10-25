@@ -39,7 +39,7 @@ const projects = [
   {
     id: 2,
     name: 'Population Metrics',
-    pic: './images/desktop-images/pop1.png',
+    pic: './images/desktop-images/pop3.png',
     companyId: 'Front End Dev',
     work: 'Back End Dev',
     date: 2023,
